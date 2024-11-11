@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Chipxprt_DSD_lab01_task2.srcs/sources_1/new/Half_adder.sv" \
+"../../../../Chipxprt_DSD_lab01_task2.srcs/sim_1/new/ha_ts.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
